@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CA_Task_Waiting_For_Customer_Email_Template</name>
+    <style>none</style>
+    <subject>Task {!BMCServiceDesk__Task__c.Name} has been completed. Please reply yes or no to confirm</subject>
+    <textOnly>Task {!BMCServiceDesk__Task__c.Name} has been completed. Please reply yes or no to confirm</textOnly>
+    <type>custom</type>
+</EmailTemplate>

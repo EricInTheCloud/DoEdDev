@@ -1,0 +1,2182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>BMCServiceDesk__StdFormHelpProblem</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This object allows you to store data for problems..</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fieldSets>
+        <fullName>BMCServiceDesk__CloseFS</fullName>
+        <availableFields>
+            <field>BMCServiceDesk__Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Compliant__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Due_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKBroadcast__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKImpact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKPriority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKStaff__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKUrgency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Impact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Inactive__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Known_Error__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Number_of_linked_Changes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Number_of_linked_Incidents__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Open_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Priority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Problem_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Problem_Source__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Queue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Staff_ID_Closed_By__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Total_Duration__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Urgency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Work_Around__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Workaround_details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__queueName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__shortDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>This field set is used in the Close page of the Problem form.</description>
+        <displayedFields>
+            <field>BMCServiceDesk__FKClosed_By__c</field>
+            <isFieldManaged>true</isFieldManaged>
+            <isRequired>true</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__Closed_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__FKStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__ClosureCategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__FKCategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__Problem_Resolution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Close Form</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>BMCServiceDesk__Console_DateTime</fullName>
+        <availableFields>
+            <field>BMCServiceDesk__BLANK__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__ClosureCategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Compliant__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKBroadcast__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKCategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKClosed_By__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKImpact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKPriority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKStaff__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKUrgency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Impact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Inactive__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Known_Error__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Number_of_linked_Changes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Number_of_linked_Incidents__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Priority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Problem_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Problem_Resolution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Problem_Source__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Queue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Staff_ID_Closed_By__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__State__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Total_Duration__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Urgency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Work_Around__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Workaround_details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__queueName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__shortDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Specify the fields that are displayed in the problem console detail form under Date and time section.</description>
+        <displayedFields>
+            <field>BMCServiceDesk__Open_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__Closed_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__Due_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Console - Date and Time</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>BMCServiceDesk__Console_ProblemDetails</fullName>
+        <availableFields>
+            <field>BMCServiceDesk__Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Closed_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__ClosureCategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Compliant__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Due_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKBroadcast__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKClosed_By__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKImpact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKPriority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKStaff__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKUrgency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Impact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Inactive__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Number_of_linked_Changes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Number_of_linked_Incidents__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Open_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Priority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Queue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Staff_ID_Closed_By__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__State__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Total_Duration__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Urgency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Work_Around__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__queueName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__shortDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Specify the fields that are displayed in the problem console detail form under Problem section.</description>
+        <displayedFields>
+            <field>BMCServiceDesk__Problem_Source__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__FKCategory__c</field>
+            <isFieldManaged>true</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__Problem_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__Problem_Resolution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__Known_Error__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__BLANK__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__Workaround_details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Console - Problem Details</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>BMCServiceDesk__Console_StatusPriority</fullName>
+        <availableFields>
+            <field>BMCServiceDesk__BLANK__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Closed_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__ClosureCategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Compliant__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Due_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKBroadcast__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKCategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKClosed_By__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKPriority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKStaff__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Impact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Inactive__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Known_Error__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Number_of_linked_Changes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Number_of_linked_Incidents__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Open_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Problem_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Problem_Resolution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Problem_Source__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Queue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Staff_ID_Closed_By__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__State__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Total_Duration__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Urgency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Work_Around__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Workaround_details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__queueName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__shortDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Specify the fields that are displayed in the problem console detail form under status and priority section.</description>
+        <displayedFields>
+            <field>BMCServiceDesk__FKImpact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__FKUrgency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__Priority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__FKStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Console - Status and Priority</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>BMCServiceDesk__LinkRecords</fullName>
+        <availableFields>
+            <field>BMCServiceDesk__Category__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Closed_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__ClosureCategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Due_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKBroadcast__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKCategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKImpact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKStaff__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKUrgency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Impact__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Inactive__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Known_Error__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>LastModifiedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Number_of_linked_Changes__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Number_of_linked_Incidents__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Open_Date_Time__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Problem_Resolution__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Problem_Source__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Queue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Staff_ID_Closed_By__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__State__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Total_Duration__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Urgency__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Work_Around__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Workaround_details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__queueName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__shortDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>Specify the fields that are displayed in the lookup of this object.</description>
+        <displayedFields>
+            <field>BMCServiceDesk__Problem_Description__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__FKPriority__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>BMCServiceDesk__FKStatus__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Column Headers</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>BMCServiceDesk__MainPanelLeftFS</fullName>
+        <availableFields>
+            <field>BMCServiceDesk__ClosureCategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKStaff__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Queue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Workaround_details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__queueName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__shortDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>This field set is used in the main panel of the problem form. (Left Side)</description>
+        <displayedFields>
+            <field>BMCServiceDesk__Known_Error__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Main Panel:First Column</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>BMCServiceDesk__MainPanelRightFS</fullName>
+        <availableFields>
+            <field>BMCServiceDesk__ClosureCategory__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__FKStaff__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Known_Error__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Queue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__Workaround_details__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__queueName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <availableFields>
+            <field>BMCServiceDesk__shortDescription__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>This field set is used in the main panel of the problem form. (Right Side)</description>
+        <label>Main Panel:Second Column</label>
+    </fieldSets>
+    <fields>
+        <fullName>BMCServiceDesk__Additional_email_information__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to add additional information to the email even after selecting the email template.</inlineHelpText>
+        <label>Additional email information</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__AllTaskCloseController__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is used to activate the workflow for sending email to Problem owner. The value is toggled to True if the last value was False to activate field update.</description>
+        <externalId>false</externalId>
+        <label>All Tasks Closed Controller</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__BLANK__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Use this field to add space between fields in a Console fieldset.</description>
+        <externalId>false</externalId>
+        <label>&lt;BLANK&gt;</label>
+        <length>1</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Category__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the category linked to the problem</description>
+        <externalId>false</externalId>
+        <formula>BMCServiceDesk__FKCategory__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>From the list of options, select the problem&apos;s category. Categories allow you to classify the problem using standard classifications, which can be easily tracked for reporting purposes.</inlineHelpText>
+        <label>Category~</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Closed_Date_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the date and time when the problem closed</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to select the date when the problem is closed.</inlineHelpText>
+        <label>Closed Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__ClosureCategory__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Closure Category</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Resolved/Fixed</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Unable to resolve</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Workaround created</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Compliant__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the value if the problem is compliant or not</description>
+        <externalId>false</externalId>
+        <formula>IF(ISNULL(BMCServiceDesk__Due_Date_Time__c), &quot;YES&quot;, 
+	( IF( ISNULL(BMCServiceDesk__Closed_Date_Time__c), ( IF(BMCServiceDesk__Due_Date_Time__c &gt;= NOW(), &quot;YES&quot;, &quot;NO&quot;)), 
+		( IF(BMCServiceDesk__Due_Date_Time__c &gt;= BMCServiceDesk__Closed_Date_Time__c, &quot;YES&quot;, &quot;NO&quot;))
+	))
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Compliant</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Due_Date_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the date and time when the problem is due</description>
+        <externalId>false</externalId>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__FKBroadcast__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field stores the foreign key value of the linked broadcast</description>
+        <externalId>false</externalId>
+        <label>Broadcast</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>BMCServiceDesk__Broadcasts__c.BMCServiceDesk__state__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <filterItems>
+                <field>BMCServiceDesk__Broadcasts__c.BMCServiceDesk__inactive__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </filterItems>
+            <infoMessage>Select open and active broadcast.</infoMessage>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>BMCServiceDesk__Broadcasts__c</referenceTo>
+        <relationshipLabel>Problems</relationshipLabel>
+        <relationshipName>Problems</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__FKCategory__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field stores the foreign key value of the linked category</description>
+        <externalId>false</externalId>
+        <inlineHelpText>From the list of options, select the problem&apos;s category. Categories allow you to classify the problem using standard classifications, which can be easily tracked for reporting purposes.</inlineHelpText>
+        <label>Category</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>BMCServiceDesk__Category__c.BMCServiceDesk__inactive__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </filterItems>
+            <infoMessage>Select an active category.</infoMessage>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>BMCServiceDesk__Category__c</referenceTo>
+        <relationshipLabel>Problems</relationshipLabel>
+        <relationshipName>Problems</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__FKClosed_By__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field stores the foreign key value of the linked user who closed the problem</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is automatically set to the Staff ID of the currently logged-on staff. If required, you can use this field to select a different staff from the currently logged-on staff.</inlineHelpText>
+        <label>Staff ID Closed By</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Problems</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__FKImpact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field stores the foreign key value of the linked impact</description>
+        <externalId>false</externalId>
+        <inlineHelpText>From the list of options, select the problem&apos;s level of impact. The level of impact and the urgency are used to calculate the priority of the problem.</inlineHelpText>
+        <label>Impact</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>BMCServiceDesk__Impact__c.BMCServiceDesk__inactive__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </filterItems>
+            <infoMessage>Select an active impact.</infoMessage>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>BMCServiceDesk__Impact__c</referenceTo>
+        <relationshipLabel>Problems</relationshipLabel>
+        <relationshipName>Problems</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__FKPriority__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field stores the foreign key value of the linked priority</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The priority is calculated depending on the urgency and impact values that you have selected.</inlineHelpText>
+        <label>Priority</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>BMCServiceDesk__Priority__c.BMCServiceDesk__inactive__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </filterItems>
+            <infoMessage>Select an active priority</infoMessage>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>BMCServiceDesk__Priority__c</referenceTo>
+        <relationshipLabel>Problems</relationshipLabel>
+        <relationshipName>Problems</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__FKStaff__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Staff</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.BMCServiceDesk__IsStaffUser__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Problems1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__FKStatus__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field stores the foreign key value of the linked status</description>
+        <externalId>false</externalId>
+        <inlineHelpText>From the list of options, select the appropriate status for the problem.</inlineHelpText>
+        <label>Status</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Select an active status that applies to problems.</errorMessage>
+            <filterItems>
+                <field>BMCServiceDesk__Status__c.BMCServiceDesk__appliesToProblem__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <filterItems>
+                <field>BMCServiceDesk__Status__c.BMCServiceDesk__inactive__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>BMCServiceDesk__Status__c</referenceTo>
+        <relationshipLabel>Problems</relationshipLabel>
+        <relationshipName>Problems</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__FKUrgency__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>This field stores the foreign key value of the linked urgency</description>
+        <externalId>false</externalId>
+        <inlineHelpText>From the list of options, select how quickly the problem needs to be completed. The urgency and the level of impact are used to calculate the priority of the problem.</inlineHelpText>
+        <label>Urgency</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>BMCServiceDesk__Urgency__c.BMCServiceDesk__inactive__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </filterItems>
+            <infoMessage>Select an active urgency.</infoMessage>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>BMCServiceDesk__Urgency__c</referenceTo>
+        <relationshipLabel>Problems</relationshipLabel>
+        <relationshipName>Problems</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Impact__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the impact linked to the problem</description>
+        <externalId>false</externalId>
+        <formula>BMCServiceDesk__FKImpact__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>From the list of options, select the problem&apos;s level of impact. The level of impact and the urgency are used to calculate the priority of the problem.</inlineHelpText>
+        <label>Impact~</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Inactive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field stores the value if the problem is active or inactive</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this field if the problem is no longer valid, but the record has to be retained for compliance with the records retention policy.</inlineHelpText>
+        <label>Inactive</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Known_Error__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field stores the value if the problem has known error or not</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select this field if you want to indicate that the problem is a known error. A known error is a problem for which the root cause is identified.</inlineHelpText>
+        <label>Known Error</label>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Launch_Console__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;javascript:if(window.parent.isServiceCloudConsole){window.parent.addSConsoleTab(&apos;/apex/BMCServiceDesk__ProblemConsole?record_id=&quot; &amp; Id &amp; &quot;&amp;record_name=&quot;&amp; Name &amp;&quot;&amp;isServiceCloudConsole=true&apos;,&apos;&quot;&amp; Name &amp;&quot;&apos; );}else{ var loc = window.parent.location.href; if(loc.indexOf(&apos;isRFConsoleDetailForm=true&apos;)!= -1){window.parent.parent.addTab( &apos;&quot; &amp; Id &amp; &quot;&apos;, &apos;&quot; &amp;  Name  &amp; &quot; &apos;,&apos;Problem__c&apos;);}else{ var win =window.open(&apos;/apex/BMCServiceDesk__RemedyforceConsole?record_id=&quot; &amp; Id &amp; &quot;&amp;objectName=Problem__c&apos;);}}&quot;, Name,&quot;_self&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Record will be opened either in Problem Console or in Remedyforce Console tab</inlineHelpText>
+        <label>Launch Console</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__LockedRecordTimestamp__c</fullName>
+        <deprecated>false</deprecated>
+        <description>this field is used in case of record locking.</description>
+        <externalId>false</externalId>
+        <label>LockedRecordTimestamp</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Number_of_linked_Changes__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field displays the number of changes linked to the problem</description>
+        <externalId>false</externalId>
+        <label>Number of linked Changes</label>
+        <summaryForeignKey>BMCServiceDesk__Change_Problem_Link__c.BMCServiceDesk__FKProblem__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Number_of_linked_Incidents__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field displays the number of incidents linked to the problem</description>
+        <externalId>false</externalId>
+        <label>Number of linked Incidents</label>
+        <summaryForeignKey>BMCServiceDesk__Incident_Problem_Link__c.BMCServiceDesk__FKProblem__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Open_Date_Time__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the date and time when the problem opened</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is automatically set to the date and time at which the problem was created.</inlineHelpText>
+        <label>Opened Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Priority__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the priority linked to the problem</description>
+        <externalId>false</externalId>
+        <formula>BMCServiceDesk__FKPriority__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The priority is calculated depending on the urgency and impact values that you have selected.</inlineHelpText>
+        <label>Priority~</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Problem_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the details of the description regarding the problem</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to enter a description of the problem.</inlineHelpText>
+        <label>Description</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Problem_Resolution__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the details of the resolution regarding the problem</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to specify what has been done to fix the problem. Provide detailed solution instructions. For example, describe the configuration setting that must be applied to a configuration item while installing the configuration item.</inlineHelpText>
+        <label>Resolution</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Problem_Source__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the source of the problem</description>
+        <externalId>false</externalId>
+        <label>Problem Source</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Client</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Event Trigger</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Incident</fullName>
+                <default>true</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Staff</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Problem_console_detail_link__c</fullName>
+        <deprecated>false</deprecated>
+        <description>To be used in Service Cloud Console</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;javascript:var loc = window.parent.location.href; var splittext=loc.split(&apos;/&apos;); var match = /console/.test(splittext[3]); if(match){srcUp(&apos;/apex/BMCServiceDesk__ProblemConsole?record_name=&quot;&amp; Name &amp;&quot;&amp;record_id=&quot; &amp; Id &amp; &quot;&amp;isdtp=vw&amp;isServiceCloudConsole=true&apos;)}else{ var baseUrl = loc.substring(0,loc.lastIndexOf(&apos;/&apos;)+1);window.parent.location.href = baseUrl + &apos;&quot; &amp; Id &amp;&quot;&apos;}&quot;, Name,&quot;_self&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Problem #+</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Queue__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Queue to which the record is assigned.</description>
+        <externalId>false</externalId>
+        <formula>IF(UPPER(LEFT(OwnerId , 3)) =&quot;00G&quot;,BMCServiceDesk__queueName__c ,&apos;&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Queue</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__ShowDueDateDialog__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field decides the opening of pop up window for recalculation of due date in case of Standard Forms.</description>
+        <externalId>false</externalId>
+        <label>Show DueDate Dialog</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Staff_ID_Closed_By__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the user name who closed the problem</description>
+        <externalId>false</externalId>
+        <formula>BMCServiceDesk__FKClosed_By__r.Username</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This field is automatically set to the Staff ID of the currently logged-on staff. If required, you can use this field to select a different staff from the currently logged-on staff.</inlineHelpText>
+        <label>Staff ID Closed By~</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__State__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field stores the value if the problem is open or closed</description>
+        <externalId>false</externalId>
+        <label>State</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the status linked to the problem</description>
+        <externalId>false</externalId>
+        <formula>BMCServiceDesk__FKStatus__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>From the list of options, select the appropriate status for the problem.</inlineHelpText>
+        <label>Status~</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Task_Closed_Controller__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field is used to activate the workflow for sending email to Problem owner after closing each linked task. The value is set with the linked task name to activate field update.</description>
+        <externalId>false</externalId>
+        <label>Task Closed Controller</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Total_Duration__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the total duration of the problem</description>
+        <externalId>false</externalId>
+        <label>Total Duration (minutes)</label>
+        <summarizedField>BMCServiceDesk__Problem_History__c.BMCServiceDesk__Duration__c</summarizedField>
+        <summaryForeignKey>BMCServiceDesk__Problem_History__c.BMCServiceDesk__FKProblem__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__UpdateCount__c</fullName>
+        <defaultValue>0</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field can be used in workflows to increment the count when a new record is added to the Problem History.</description>
+        <externalId>false</externalId>
+        <label>Record Update Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Urgency__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the urgency linked to the problem</description>
+        <externalId>false</externalId>
+        <formula>BMCServiceDesk__FKUrgency__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>From the list of options, select how quickly the problem needs to be completed. The urgency and the level of impact are used to calculate the priority of the problem.</inlineHelpText>
+        <label>Urgency~</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Work_Around__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the details of the workaround for the problem if any</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to enter the temporary or permanent alternative to fixing the current problem, if the alternative is available.</inlineHelpText>
+        <label>Workaround</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Workaround_details__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the details of the workaround for the problem if any</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to enter the temporary or permanent alternative to fixing the current problem, if the alternative is available.</inlineHelpText>
+        <label>Workaround Details</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__queueName__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>Displays the name of the queue to which the problem was last assigned.</inlineHelpText>
+        <label>Last Queue</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__shortDescription__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>This field will contain value first 255 character value of description field.</inlineHelpText>
+        <label>Short Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Problem</label>
+    <listViews>
+        <fullName>BMCServiceDesk__Remedyforce_Problem_View</fullName>
+        <columns>NAME</columns>
+        <columns>BMCServiceDesk__FKPriority__c</columns>
+        <columns>BMCServiceDesk__Problem_Description__c</columns>
+        <columns>BMCServiceDesk__FKStatus__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>BMCServiceDesk__State__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>BMCServiceDesk__Inactive__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Remedyforce Problem View</label>
+    </listViews>
+    <nameField>
+        <displayFormat>{00000000}</displayFormat>
+        <label>Problem #</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Problems</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>BMCServiceDesk__Priority__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BMCServiceDesk__Problem_Description__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>BMCServiceDesk__Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LAST_UPDATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>BMCServiceDesk__Priority__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>BMCServiceDesk__Problem_Description__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>BMCServiceDesk__Status__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LAST_UPDATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>BMCServiceDesk__Inactive__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+    </searchLayouts>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>BMCServiceDesk__Cannot_Update_Closed_Problem</fullName>
+        <active>true</active>
+        <description>This rule does not allow user to edit record if it is closed.</description>
+        <errorConditionFormula>AND( NOT( BMCServiceDesk__State__c ) , NOT( PRIORVALUE( BMCServiceDesk__State__c ) ),NOT( ISNEW() ), NOT( ISCHANGED( BMCServiceDesk__Total_Duration__c ) ), NOT( ISCHANGED( BMCServiceDesk__Number_of_linked_Changes__c ) ), NOT( ISCHANGED( BMCServiceDesk__Number_of_linked_Incidents__c ) )   )</errorConditionFormula>
+        <errorMessage>This problem is closed. Reopen the problem to modify it.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BMCServiceDesk__KnownErrorMustBeCheckedForWorkaround</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF( AND( ISBLANK(BMCServiceDesk__Work_Around__c)=FALSE,BMCServiceDesk__Known_Error__c=FALSE), TRUE,FALSE)</errorConditionFormula>
+        <errorMessage>Select the Known Error field to save the workaround</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>BMCServiceDesk__dueDateMustBeAfterOpenedDate</fullName>
+        <active>true</active>
+        <description>Due date must come after Opened Date.</description>
+        <errorConditionFormula>AND(NOT(OR(ISNULL(BMCServiceDesk__Due_Date_Time__c),ISBLANK(	BMCServiceDesk__Due_Date_Time__c) ) ), BMCServiceDesk__Due_Date_Time__c &lt; BMCServiceDesk__Open_Date_Time__c)</errorConditionFormula>
+        <errorMessage>The Due Date must be later than the Opened Date</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>BMCServiceDesk__Back_to_list</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Back to List</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/apex/BMCServiceDesk__StdProblemExtension?id={!BMCServiceDesk__Problem__c.Id}&amp;action=Backtolist</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__Category_Tree</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Category Tree</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>var stdLayoutScreenWidth = 671;
+var stdLayoutScreenHeight = 530;
+
+function stdScreenLeft(){
+return parseInt((screen.availWidth/2) - (stdLayoutScreenWidth/2));
+}
+
+function stdScreenTop(){
+return parseInt((screen.availHeight/2) - (stdLayoutScreenHeight/2));
+}
+
+var left = stdScreenLeft();
+var top = stdScreenTop();
+var windowFeatures = &quot;width=&quot; + stdLayoutScreenWidth + &quot;,height=&quot; + stdLayoutScreenHeight + &quot;,status,resizable,scrollbars=no,left=&quot; + left + &quot;,top=&quot; + top; 
+
+window.open(&apos;/apex/BMCServiceDesk__StdLayoutCategoryTree?recordId={!CASESAFEID(BMCServiceDesk__Problem__c.Id)}&amp;popupId=problem&amp;objectName=Problem__c&amp;state=&apos;+{!BMCServiceDesk__Problem__c.BMCServiceDesk__State__c}+&apos;&amp;stdForm=false&amp;standardLayout=true&apos;,&apos;_blank&apos;,windowFeatures )</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__Close</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Close</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>var stdLayoutScreenWidth = 671; 
+var stdLayoutScreenHeight = 400; 
+function stdScreenLeft(){ 
+return parseInt((screen.availWidth/2) - (stdLayoutScreenWidth/2)); 
+} 
+
+function stdScreenTop(){ 
+return parseInt((screen.availHeight/2) - (stdLayoutScreenHeight/2)); 
+} 
+
+
+
+
+var left = stdScreenLeft(); 
+var top = stdScreenTop(); 
+var windowFeatures = &quot;width=&quot; + stdLayoutScreenWidth + &quot;,height=&quot; + stdLayoutScreenHeight + &quot;,status,resizable,scrollbars=yes,left=&quot; + left + &quot;,top=&quot; + top; 
+if({!BMCServiceDesk__Problem__c.BMCServiceDesk__State__c}){
+         var closeProblemWindow; 
+       if (!closeProblemWindow || closeProblemWindow .closed){ 
+                var recordId=&quot;{!BMCServiceDesk__Problem__c.Id}&quot;;
+				var label=&apos;{!JSENCODE($Label.BMCServiceDesk__InsufficentPrivilegeToAccess)}&apos;;
+				{!REQUIRESCRIPT(&quot;/soap/ajax/10.0/connection.js&quot;)}
+				{!REQUIRESCRIPT(&quot;/soap/ajax/10.0/apex.js&quot;)}
+				var isUpdateable = sforce.apex.execute(&quot;BMCServiceDesk.WebServiceMethodsUtility&quot;,&quot;checkForUpdatePermission&quot;, {objName:&quot;Problem__c&quot;});
+				if (isUpdateable != &apos;true&apos;) {
+					alert(label);
+				}
+				else {
+				var isRecordUpdatable=sforce.apex.execute(&quot;BMCServiceDesk.WebServiceMethodsUtility&quot;,&quot;checkForUpdatePermissionOnRecord&quot;,{recId:recordId});
+				if(isRecordUpdatable!=&apos;true&apos;){
+					alert(label);
+				}
+				else{
+               closeProblemWindow = window.open(&apos;/apex/BMCServiceDesk__CloseProblemPage?calledFrom=stdform&amp;Id={!BMCServiceDesk__Problem__c.Id}&amp;isLookup=true&amp;standardLayout=true&apos;,&apos;_blank&apos;,windowFeatures); 
+        }
+}
+}
+}
+else
+{
+var label=&apos;{!JSENCODE($Label.BMCServiceDesk__problemclosed)}&apos;;
+alert(label);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__Create_Knowledge_Article</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Create Knowledge Article</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>var stdLayoutScreenWidth = 475;
+var stdLayoutScreenHeight = 300;
+function stdScreenLeft(){
+return parseInt((screen.availWidth/2) - (stdLayoutScreenWidth/2));
+}
+
+function stdScreenTop(){
+return parseInt((screen.availHeight/2) - (stdLayoutScreenHeight/2));
+}
+var url =&quot;apex/BMCServiceDesk__CreateKnowledgePage?problemid={!BMCServiceDesk__Problem__c.Id}&amp;knownError={!BMCServiceDesk__Problem__c.BMCServiceDesk__Known_Error__c}&quot;;
+windowFeatures=&quot;status = 1,height = &quot;+166+&quot;, width = &quot;+475+&quot;,left=&quot;+stdScreenLeft()+&quot;,top=&quot;+stdScreenTop()+&quot;, resizable = 1,scrollbars=yes&quot;;
+window.open(url,&apos;_blank&apos;,windowFeatures);</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__Knowledge_Articles</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Knowledge Search</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>var stdLayoutScreenWidth = 671;
+var stdLayoutScreenHeight = 400;
+function stdScreenLeft(){
+return parseInt((screen.availWidth/2) - (stdLayoutScreenWidth/2));
+}
+
+function stdScreenTop(){
+return parseInt((screen.availHeight/2) - (stdLayoutScreenHeight/2));
+}
+
+var desc =&apos;{!JSINHTMLENCODE( BMCServiceDesk__Problem__c.BMCServiceDesk__Problem_Description__c )}&apos;;
+
+if (desc != null &amp;&amp; desc != &apos;&apos; &amp;&amp; desc.length &gt; 500) 
+     desc = desc.substring(0, 500);
+	 
+if({! BMCServiceDesk__Problem__c.BMCServiceDesk__State__c }){
+var problemKMSearchHandlerWindow;
+if (!problemKMSearchHandlerWindow || problemKMSearchHandlerWindow.closed){
+
+problemKMSearchHandlerWindow = window.open(&apos;/apex/BMCServiceDesk__KnowledgeSearch?enableSelfClosing=false&amp;calledFromForm=true&amp;objectName=Problems&amp;standardLayout=true&amp;search=&apos;+encodeURIComponent(desc)+&apos;&amp;KMproblemID={! BMCServiceDesk__Problem__c.Id }&apos;,&apos;_blank&apos;,&quot;status = 1, height =&quot;+stdLayoutScreenHeight +&quot;, width =&quot;+stdLayoutScreenWidth +&quot;,left=&quot;+stdScreenLeft()+&quot;,top=&quot;+stdScreenTop()+&quot;, resizable = 1, scrollbars=no&quot;);
+}
+if (problemKMSearchHandlerWindow.focus) {problemKMSearchHandlerWindow.focus()};
+
+}
+else
+{
+var label=&apos;{!JSENCODE($Label.BMCServiceDesk__problemclosed)}&apos;;
+alert(label);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__Launch_CI_Explorer</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>CI Explorer</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>var stdLayoutScreenWidth = 1100;
+var stdLayoutScreenHeight = 700;
+function stdScreenLeft(){
+return parseInt((screen.availWidth/2) - (stdLayoutScreenWidth/2));
+}
+
+function stdScreenTop(){
+return parseInt((screen.availHeight/2) - (stdLayoutScreenHeight/2));
+} 
+
+var url = &quot;/apex/BMCServiceDesk__CIExplorerLauncher?Module=Problem__c&amp;RecordSequence={!BMCServiceDesk__Problem__c.Id}&amp;id={!BMCServiceDesk__Problem__c.Id}&amp;stdForm=true&quot;;
+windowFeatures=&quot;status = 1,height = &quot;+stdLayoutScreenHeight +&quot;, width = &quot;+stdLayoutScreenWidth +&quot;,left=&quot;+stdScreenLeft()+&quot;,top=&quot;+stdScreenTop()+&quot;, resizable = 1,scrollbars=no&quot;;
+
+window.open(url,&apos;_blank&apos;,windowFeatures);</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__New</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>New</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>window.open(&apos;{!URLFOR($Action.BMCServiceDesk__Problem__c.New)}&apos;,&quot;_new&quot;)</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__New_Problem_Record</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>New Problem Record</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/support/console/26.0/integration.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/22.0/apex.js&quot;)}
+
+javascript:try{sforce.console.openPrimaryTab(null,&apos;/apex/BMCServiceDesk__ProblemConsole?record_id=&amp;isServiceCloudConsole=true&amp;ran=&apos;+new Date().getTime(),true,&apos; &apos; )}catch(e){window.top.location.href =&apos;{!URLFOR($Action.BMCServiceDesk__Problem__c.New)}&apos;,&quot;_new&quot;};</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__Problem_Management_Process</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Problem Management Process</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>window.open( &quot;/apex/BMCServiceDesk__ProblemProcMgmtPage&quot;,&apos;_blank&apos;,&quot;status = 1, height = 1000, width = 1000,left=100,right=200, resizable = 1,scrollbars=no&quot;)</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__Problem_Manifest</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Problem Manifest</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>var stdLayoutScreenWidth = 671;
+var stdLayoutScreenHeight = 400;
+function stdScreenLeft(){
+return parseInt((screen.availWidth/2) - (stdLayoutScreenWidth/2));
+}
+
+function stdScreenTop(){
+return parseInt((screen.availHeight/2) - (stdLayoutScreenHeight/2));
+}
+var url = &quot;/apex/BMCServiceDesk__ReleaseManifest?id={!BMCServiceDesk__Problem__c.Id}&amp;stdForm=true&amp;objectName=problem__c&quot;; 
+windowFeatures=&quot;status = 1,height = &quot;+750+&quot;, width = &quot;+900+&quot;,left=&quot;+stdScreenLeft()+&quot;,top=&quot;+stdScreenTop()+&quot;, resizable = 1,scrollbars=yes&quot;; 
+
+window.open(url,&apos;_blank&apos;,windowFeatures);</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__Reopen_Problem</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Reopen</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>if({!BMCServiceDesk__Problem__c.BMCServiceDesk__State__c}){
+				var label=&apos;{!JSENCODE($Label.BMCServiceDesk__ProblemOpen)}&apos;;
+			    alert(label);
+			}
+			else
+			{
+				var label=&apos;{!JSENCODE($Label.BMCServiceDesk__InsufficentPrivilegeToAccess)}&apos;;
+				var recordId=&quot;{!BMCServiceDesk__Problem__c.Id}&quot;;
+				{!REQUIRESCRIPT(&quot;/soap/ajax/10.0/connection.js&quot;)}
+				{!REQUIRESCRIPT(&quot;/soap/ajax/10.0/apex.js&quot;)}
+				var isUpdateable = sforce.apex.execute(&quot;BMCServiceDesk.WebServiceMethodsUtility&quot;,&quot;checkForUpdatePermission&quot;, {objName:&quot;Problem__c&quot;});
+				if (isUpdateable != &apos;true&apos;) {
+					var label=&apos;{!JSENCODE($Label.BMCServiceDesk__InsufficentPrivilegeToAccess)}&apos;;
+					alert(label);
+				}
+				else {
+					var isRecordUpdatable=sforce.apex.execute(&quot;BMCServiceDesk.WebServiceMethodsUtility&quot;,&quot;checkForUpdatePermissionOnRecord&quot;,{recId:recordId});
+					if(isRecordUpdatable!=&apos;true&apos;){
+						alert(label);
+					}
+			        else {
+					window.location.href=&quot;/apex/BMCServiceDesk__StdProblemExtension?id={!BMCServiceDesk__Problem__c.Id}&amp;action=Reopen&quot;;
+				}
+				}
+		}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__Send_Email</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send Email</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>var stdLayoutScreenWidth = 690;
+var stdLayoutScreenHeight = 656;
+function stdScreenLeft(){
+return parseInt((screen.availWidth/2) - (stdLayoutScreenWidth/2));
+}
+
+function stdScreenTop(){
+return parseInt((screen.availHeight/2) - (stdLayoutScreenHeight/2));
+}
+if({!BMCServiceDesk__Problem__c.BMCServiceDesk__State__c}){
+var sendEmailBtnHandlerWindow;
+if (!sendEmailBtnHandlerWindow || sendEmailBtnHandlerWindow.closed){
+  
+        var header=&apos;{!BMCServiceDesk__Problem__c.Name }&apos;; 
+
+sendEmailBtnHandlerWindow = window.open(&apos;/apex/BMCServiceDesk__ComposeEmailPage?enableSelfClosing=false&amp;recordId={!BMCServiceDesk__Problem__c.Id}&amp;isNew=true&amp;objectName=Problem__c&amp;standardLayout=true&amp;popupHeader=&apos;+header,&apos;_blank&apos;,&quot;status = 1, height =&quot;+stdLayoutScreenHeight +&quot;, width =&quot;+ stdLayoutScreenWidth +&quot;,left=&quot;+stdScreenLeft()+&quot;,top=&quot;+stdScreenTop()+&quot;,resizable = 1,status=no, scrollbars=yes&quot;);
+}
+   if (sendEmailBtnHandlerWindow.focus) {sendEmailBtnHandlerWindow.focus() ;}
+}
+else
+{
+ var label=&apos;{!JSENCODE($Label.BMCServiceDesk__problemclosed)}&apos;
+alert(label);
+}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__Service_Targets</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Service Targets</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>var stdLayoutScreenWidth = 1087; 
+var stdLayoutScreenHeight = 400; 
+function stdScreenLeft(){ 
+return parseInt((screen.availWidth/2) - (stdLayoutScreenWidth/2)); 
+} 
+
+function stdScreenTop(){ 
+return parseInt((screen.availHeight/2) - (stdLayoutScreenHeight/2)); 
+} 
+
+var ServiceTargetsBtnHandlerWindow; 
+
+
+if (!ServiceTargetsBtnHandlerWindow || ServiceTargetsBtnHandlerWindow.closed){ 
+ServiceTargetsBtnHandlerWindow = window.open(&apos;/apex/BMCServiceDesk__SearchPage?popupId=ProblemServiceTarget&amp;isLookup=true&amp;filterClause=&apos;+ escape(&apos;FKProblem__c=\&apos;{!BMCServiceDesk__Problem__c.Id}\&apos;&apos;)+&apos;&amp;standardLayout=true&amp;popupFor=ServiceTargets&amp;popupHeader={!BMCServiceDesk__Problem__c.Name}&apos;,null,&quot;status = 1,height =&quot;+ stdLayoutScreenHeight +&quot;, width =&quot;+stdLayoutScreenWidth +&quot;,left=&quot;+ stdScreenLeft()+&quot;,top=&quot;+ stdScreenTop()+&quot;, resizable = 0,scrollbars=no&quot;); 
+} 
+if (ServiceTargetsBtnHandlerWindow.focus) {ServiceTargetsBtnHandlerWindow.focus();}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>BMCServiceDesk__Standard_Description_and_Resolution</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Standard Description and Resolution</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>if({!BMCServiceDesk__Problem__c.BMCServiceDesk__State__c}){
+	if(&apos;{!BMCServiceDesk__Problem__c.BMCServiceDesk__FKCategory__c}&apos; == &apos;&apos;){
+		var errorlabel=&apos;{!JSENCODE($Label.BMCServiceDesk__NoCategorySelected)}&apos;;
+		alert(errorlabel);
+	}
+
+	else{
+		var stdLayoutScreenWidth = 671;
+		var stdLayoutScreenHeight = 300;
+		function stdScreenLeft(){
+			return parseInt((screen.availWidth/2) - (stdLayoutScreenWidth/2));
+		}
+
+		function stdScreenTop(){
+			return parseInt((screen.availHeight/2) - (stdLayoutScreenHeight/2));
+		}
+		var standardDescriptionResolutionWindow;
+		var categoryType = &apos;Category&apos;;
+		if (!standardDescriptionResolutionWindow|| standardDescriptionResolutionWindow.closed){
+			standardDescriptionResolutionWindow= window.open(&apos;/apex/BMCServiceDesk__StdDescriptionResolutionPage?categoryName={!BMCServiceDesk__Problem__c.BMCServiceDesk__Category__c}&amp;stdLayout=true&amp;objId={!BMCServiceDesk__Problem__c.Id}&amp;paramId={!BMCServiceDesk__Problem__c.BMCServiceDesk__FKCategoryId__c}&amp;isLookup=true&amp;isSD=true&amp;popupId=problem&amp;categoryview=problem&apos;,&apos;_blank&apos;,&quot;status = 1,height =&quot;+stdLayoutScreenHeight+&quot;, width =&quot;+ stdLayoutScreenWidth+&quot;,left=&quot;+stdScreenLeft()+&quot;,top=&quot;+stdScreenTop()+&quot;, resizable = 0,scrollbars=no&quot;);
+		}
+		if (standardDescriptionResolutionWindow.focus) {standardDescriptionResolutionWindow.focus()};
+	}	
+}
+else
+{
+	var label=&apos;{!JSENCODE($Label.BMCServiceDesk__problemclosed)}&apos;
+	alert(label);
+}</url>
+    </webLinks>
+</CustomObject>

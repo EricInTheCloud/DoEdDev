@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DoEd_Task Email Template 1a</name>
+    <style>none</style>
+    <subject>Task # {!BMCServiceDesk__Task__c.Name} has been opened and assigned to {!BMCServiceDesk__Task__c.OwnerFullName} (Ref:IN: {!BMCServiceDesk__Task__c.BMCServiceDesk__FKIncident__c})</subject>
+    <textOnly>Task # {!BMCServiceDesk__Task__c.Name} has been assigned to {!BMCServiceDesk__Task__c.OwnerFullName}. This task has the following details:
+Task Number: {!BMCServiceDesk__Task__c.Name}
+Task Description: {!BMCServiceDesk__Task__c.BMCServiceDesk__taskDescription__c}
+Open Date: {!BMCServiceDesk__Task__c.BMCServiceDesk__openDateTime__c}
+Category:   {!BMCServiceDesk__Task__c.BMCServiceDesk__FKCategory__c}
+Client Name: {!BMCServiceDesk__Task__c.BMCServiceDesk__FKClient__c}
+Related Incident Number: {!BMCServiceDesk__Task__c.BMCServiceDesk__FKIncident__c}
+You may update this task&apos;s IMR Number, IMR Description and Status values by
+responding to this email and replacing IMR NUMBER GOES HERE
+between the # symbol with the actual IMR Number, replacing IMR Description
+between the # symbol with the IMR Description or
+replacing TASKSTATUS between the # symbol with the new Task Status
+(valid values are ANALYZED, ASSIGNED, IN PROGRESS, SUBMITTED, UPDATED, and CLOSED).
+
+IMRN##IMR NUMBER GOES HERE##
+IMRD##IMR Description##
+TSTAT##TASK STATUS GOES HERE##</textOnly>
+    <type>custom</type>
+</EmailTemplate>

@@ -1,0 +1,141 @@
+<apex:page standardController="BMCServiceDesk__Incident__c" tabStyle="Account" extensions="createUserControllerExtension" sidebar="true" showHeader="true" >
+<apex:form >
+<script type='text/javascript'>
+    function noenter(ev)  {
+        if (window.event && window.event.keyCode == 13 || ev.which == 13) {
+            doSearchAF();
+            return false;
+         } else {
+              return true;
+         }
+     }
+</script>
+ 
+  <apex:outputPanel id="userpopup">
+    <apex:outputPanel layout="block"/>
+      <apex:outputPanel styleClass="custPopup" layout="block">    
+        <apex:pageBlock id="thePage1"  mode="edit" >
+           <apex:pageBlockButtons id="buttons" location="bottom" rendered="{!IF(listFilter == null || listFilter == 'None',false,true)}">
+               <apex:commandButton value="Create" action="{!createUser}" rendered="{!IF(listFilter == 'Create User', true, false)}" />
+               <apex:commandButton value="Update" action="{!updateUser}" rendered="{!IF(listFilter == 'Update User', true, false)}" />
+               <apex:commandButton value="Cancel" action="{!reset1}" reRender="thePage1"/>
+           </apex:pageBlockButtons>
+         <apex:pageBlockSection id="listfilter"  columns="2" title="Action" rendered="true">
+             <apex:pageBlocksectionItem >
+                 <apex:outputLabel for="select" value="Select"></apex:outputLabel>
+                 <apex:selectList id="select" value="{!listFilter}" size="1">
+                 <apex:selectOption itemvalue="None" itemLabel="--None--"/>
+            <apex:selectOption itemvalue="Create User" itemLabel="Create User"/>
+            <apex:selectOption itemvalue="Update User" itemLabel="Update User"/>
+            <apex:actionSupport event="onchange" action="{!reset}" reRender="thePage1"/>
+        </apex:selectList>
+             </apex:pageBlocksectionItem><apex:Pagemessages ></apex:Pagemessages>
+         </apex:pageBlockSection>
+     
+        <apex:pageBlockSection id="create" columns="2" title="{!listFilter}" rendered="{!IF(listFilter != null && listFilter != 'None', true, false)}">
+        </apex:pageBlockSection>
+        <apex:pageBlockSection id="searchUName" showHeader="false" columns="2" rendered="{!IF(listFilter == null || listFilter == 'None',false,true)}" >           
+         <apex:inputText label="Search Username" style="width: 250px" id="search" value="{!searchCriteria}" rendered="{!IF(listFilter == 'Update User', true, false)}"  onkeypress="return noenter(event);">
+         <apex:actionFunction name="doSearchAF" action="{!runSearch}" reRender="thePage1" />
+         </apex:inputText>
+         <apex:outputLabel value="Press Return to Search" rendered="{!IF(listFilter == 'Update User', true, false)}"></apex:outputLabel>
+         </apex:pageBlockSection>
+         <apex:pageBlockSection showHeader="false" id="userData" rendered="{!IF(listFilter == null || listFilter == 'None',false,true)}" >
+        <apex:pageBlockSectionItem >
+                 <apex:outputLabel for="fnme" >First Name</apex:outputLabel>
+            <apex:outputPanel > 
+                <div class="requiredInput">
+                <div class="requiredBlock"></div>       
+         <apex:inputText label="First Name" id="fnme" value="{!fName}" disabled="{!IF((listFilter = 'Update User' && updUserFound != null) || listFilter = 'Create User', false, true)}"/>
+         </div>
+         </apex:outputPanel>  
+         </apex:pageBlockSectionItem>
+                 <apex:pageBlockSectionItem >
+                 <apex:outputLabel for="lnme" >Last Name</apex:outputLabel>
+            <apex:outputPanel > 
+                <div class="requiredInput">
+                <div class="requiredBlock"></div>       
+
+        <apex:inputText label="Last Name" id="lnme" value="{!lName}" disabled="{!IF((listFilter = 'Update User' && updUserFound != null) || listFilter = 'Create User', false, true)}"/> 
+                 </div>
+         </apex:outputPanel>  
+         </apex:pageBlockSectionItem>
+                          <apex:pageBlockSectionItem >
+         <apex:outputLabel for="em1" >Email</apex:outputLabel>
+            <apex:outputPanel > 
+                <div class="requiredInput">
+                <div class="requiredBlock"></div>   
+        <apex:inputText label="Email  " id="em1" value="{!email1}" disabled="{!IF((listFilter = 'Update User' && updUserFound != null) || listFilter = 'Create User', false, true)}"/>
+                 </div>
+         </apex:outputPanel>  
+         </apex:pageBlockSectionItem>
+        <apex:inputText label="Email 2"  id="em2" value="{!email2}" disabled="{!IF((listFilter = 'Update User' && updUserFound != null) || listFilter = 'Create User', false, true)}"/>
+        <apex:inputText label="Email 3" id="em3" value="{!email3}" disabled="{!IF((listFilter = 'Update User' && updUserFound != null) || listFilter = 'Create User', false, true)}" />
+        <apex:inputText label="Phone" id="phn" value="{!uPhone}" disabled="{!IF((listFilter = 'Update User' && updUserFound != null) || listFilter = 'Create User', false, true)}" />
+                         <apex:pageBlockSectionItem >
+        <apex:outputLabel for="fnme" >Account</apex:outputLabel>
+            <apex:outputPanel > 
+                <div class="requiredInput">
+                <div class="requiredBlock"></div>
+        <apex:selectList id="accts2" value="{!BMCServiceDesk__Incident__c.BMCServiceDesk__FKAccount__c}" size="1" disabled="{!IF((listFilter = 'Update User' && updUserFound != null) || listFilter = 'Create User', false, true)}">
+        <apex:selectOptions value="{!accts1}"></apex:selectOptions>
+        </apex:selectList>
+                         </div>
+         </apex:outputPanel>  
+         </apex:pageBlockSectionItem>
+         <apex:inputText value="{!uId}" rendered="false"/>          
+ </apex:pageBlockSection>
+          </apex:pageBlock>
+      </apex:outputPanel>
+</apex:outputPanel>
+
+<apex:outputPanel id="popup">
+            <apex:outputPanel styleClass="custPopup" layout="block" rendered="{!displayPopUp}">
+            <table>
+<tr>
+<td>
+            <h1><apex:outputText value="{!result}"></apex:outputText></h1>
+</td>
+</tr>
+<tr>
+<td>            
+                <apex:commandButton value="OK" action="{!closePopup}" rerender="popup"/>
+</td>
+</tr>
+</table>
+            </apex:outputPanel>
+        </apex:outputPanel>
+</apex:form>
+
+<style type="text/css">
+        .custPopup{
+            background-color: white;
+            border-width: 2px;
+            border-style: solid;
+            z-index: 9999;
+            left: 50%;
+            padding:10px;
+            position: absolute;
+            /* These are the 3 css properties you will need to change so the popup 
+            displays in the center of the screen. First set the width. Then set 
+            margin-left to negative half of what the width is. You can add 
+            the height property for a fixed size pop up if you want.*/
+            width: 600px;
+            margin-left: -300px;
+            top:50px;
+        }
+        .popupBackground{
+            background-color:black;
+            opacity: 0.20;
+            filter: alpha(opacity = 20);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 9998;
+        }
+
+    </style>
+
+</apex:page>

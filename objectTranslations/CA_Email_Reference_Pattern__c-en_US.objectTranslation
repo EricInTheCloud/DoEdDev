@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CA Email Reference Pattern</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CA Email Reference Pattern</value>
+    </caseValues>
+    <fields>
+        <label><!-- CA Incoming Outgoing --></label>
+        <name>CA_Incoming_Outgoing__c</name>
+    </fields>
+    <fields>
+        <label><!-- CA Order --></label>
+        <name>CA_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Pattern --></label>
+        <name>Email_Pattern__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

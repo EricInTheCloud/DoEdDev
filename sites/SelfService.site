@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowHomePage>false</allowHomePage>
+    <allowStandardAnswersPages>false</allowStandardAnswersPages>
+    <allowStandardIdeasPages>false</allowStandardIdeasPages>
+    <allowStandardLookups>false</allowStandardLookups>
+    <allowStandardSearch>false</allowStandardSearch>
+    <authorizationRequiredPage>BMCServiceDesk__SSSiteLogin</authorizationRequiredPage>
+    <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
+    <changePasswordPage>BMCServiceDesk__SSChangePassword</changePasswordPage>
+    <clickjackProtectionLevel>AllowAllFraming</clickjackProtectionLevel>
+    <description>BMC Remedyforce Self Service</description>
+    <fileNotFoundPage>FileNotFound</fileNotFoundPage>
+    <genericErrorPage>Exception</genericErrorPage>
+    <inMaintenancePage>InMaintenance</inMaintenancePage>
+    <inactiveIndexPage>BMCServiceDesk__InMaintenance</inactiveIndexPage>
+    <indexPage>BMCServiceDesk__SSSiteLogin</indexPage>
+    <masterLabel>SelfService</masterLabel>
+    <portal>Customer Portal</portal>
+    <requireHttps>false</requireHttps>
+    <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
+    <siteAdmin>sheila.rieser@ed.gov</siteAdmin>
+    <siteTemplate>BMCServiceDesk__SiteTemplate</siteTemplate>
+    <siteType>Visualforce</siteType>
+    <subdomain>edcaps</subdomain>
+</CustomSite>

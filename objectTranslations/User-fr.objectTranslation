@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account ID --></label>
+        <name>BMCServiceDesk__Account_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>BMCServiceDesk__Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>BMCServiceDesk__Account__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez cette case à cocher pour affecter une licence par siège Remedyforce.</help>
+        <label><!-- Assign Remedyforce License --></label>
+        <name>BMCServiceDesk__AssignRemedyforceLic__c</name>
+    </fields>
+    <fields>
+        <help>Saisissez une valeur comprise entre 1 et 10, où 1 = lent et 10 = rapide.</help>
+        <label><!-- Broadcast ticker speed --></label>
+        <name>BMCServiceDesk__Broadcast_ticker_speed__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Building --></label>
+        <name>BMCServiceDesk__Building__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez le statut de la discussion.</help>
+        <label><!-- Chat Status --></label>
+        <name>BMCServiceDesk__ChatStatus__c</name>
+        <picklistValues>
+            <masterLabel>Available</masterLabel>
+            <translation>Disponible</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Busy</masterLabel>
+            <translation>Occupé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offline</masterLabel>
+            <translation>Hors ligne</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ContactId --></label>
+        <name>BMCServiceDesk__ContactId__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez cette case à cocher pour autoriser l&apos;utilisateur à accéder à la discussion.</help>
+        <label><!-- Enable Chat --></label>
+        <name>BMCServiceDesk__EnableChat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extension --></label>
+        <name>BMCServiceDesk__Extension__c</name>
+    </fields>
+    <fields>
+        <help>Ce champ enregistre l&apos;ID de connexion de l&apos;utilisateur validé de BMC FootPrints Asset Core.</help>
+        <label><!-- BCM Login ID --></label>
+        <name>BMCServiceDesk__FPLoginID__c</name>
+    </fields>
+    <fields>
+        <label><!-- BCM Login Validated --></label>
+        <name>BMCServiceDesk__FP_Login_Validated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Image Name --></label>
+        <name>BMCServiceDesk__ImageName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Out of Office --></label>
+        <name>BMCServiceDesk__IsOutOfOffice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remedyforce Administrator --></label>
+        <name>BMCServiceDesk__IsRemedyforceAdministrator__c</name>
+    </fields>
+    <fields>
+        <label><!-- ServiceDesk Staff --></label>
+        <name>BMCServiceDesk__IsStaffUser__c</name>
+    </fields>
+    <fields>
+        <help>Affiche la dernière fois que le statut de l&apos;utilisateur était Disponible.</help>
+        <label><!-- Last Available Time --></label>
+        <name>BMCServiceDesk__LastAvailableTime__c</name>
+    </fields>
+    <fields>
+        <help>Affiche l&apos;heure de fin de la dernière discussion.</help>
+        <label><!-- Last Chat End Time --></label>
+        <name>BMCServiceDesk__LastChatEndTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manage QuickViews --></label>
+        <name>BMCServiceDesk__Manage_QV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manage ServiceDesk Staff Member --></label>
+        <name>BMCServiceDesk__Manage_ServiceDesk_Staff_Member__c</name>
+    </fields>
+    <fields>
+        <label><!-- Note --></label>
+        <name>BMCServiceDesk__Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picture --></label>
+        <name>BMCServiceDesk__Picture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remedyforce Knowledge User --></label>
+        <name>BMCServiceDesk__Remedyforce_Knowledge_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- Room --></label>
+        <name>BMCServiceDesk__Room__c</name>
+    </fields>
+    <fields>
+        <label><!-- SelfService Preferences --></label>
+        <name>BMCServiceDesk__SelfService_Preferences__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique User ID in Source --></label>
+        <name>BMCServiceDesk__UniqueUserIDInSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- User License --></label>
+        <name>BMCServiceDesk__User_License__c</name>
+    </fields>
+    <fields>
+        <help>Indique si l&apos;utilisateur est un VIP.</help>
+        <label><!-- VIP --></label>
+        <name>BMCServiceDesk__VIP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pager --></label>
+        <name>BMCServiceDesk__pager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remarks --></label>
+        <name>BMCServiceDesk__remarks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skip QV Wizard Introduction screen --></label>
+        <name>BMCServiceDesk__skipQVWizIntro__c</name>
+    </fields>
+    <fields>
+        <label><!-- DOED_Start --></label>
+        <name>DOED_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Account 2 --></label>
+        <name>Email_Account_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Account 3 --></label>
+        <name>Email_Account_3__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- You can delete a BMC Client Management Login ID from here but you cannot edit it. --></errorMessage>
+        <name>BMCServiceDesk__Validate_FootPrints_Login</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,7 @@
+trigger DoED_Update_Category_On_Create on BMCServiceDesk__Incident__c (before insert) 
+{
+    for(BMCServiceDesk__Incident__c inc : Trigger.new)
+    {        
+        if(String.isBlank(inc.BMCServiceDesk__FKCategory__c)){if(inc.BMCServiceDesk__contactType__c == 'Mail Listen' && (inc.BMCServiceDesk__EmailServiceAddress__c == 'doed_edcapsuser@21l0od3zp6dokpamb1p237tz25jcm9lx72y1fywlib5awhq7a8.i-hduweaa.na15.apex.salesforce.com' || inc.BMCServiceDesk__EmailServiceAddress__c == 'emailconversationservice@2kq7mfsgjuvr2c3448n6qnwbmpjdibtz572du499apcyv2ze79.i-hduweaa.na15.apex.salesforce.com')){List<BMCServiceDesk__Category__c> category = [SELECT Id, Name, BMCServiceDesk__inactive__c FROM BMCServiceDesk__Category__c where Name = 'G5'];if(!category.isEmpty()){for(BMCServiceDesk__Category__c cat : category){inc.BMCServiceDesk__FKCategory__c = cat.Id;}}}if(inc.BMCServiceDesk__contactType__c == 'Mail Listen' && inc.BMCServiceDesk__EmailServiceAddress__c == 'doed_edcapshelpdesk@m-1pahrtrsq2vuouurfciz166q5i6s5otqwlfo9ne6ektvyym7en.i-hduweaa.na15.apex.salesforce.com'){List<BMCServiceDesk__Category__c> category1 = [SELECT Id, Name, BMCServiceDesk__inactive__c FROM BMCServiceDesk__Category__c where Name = 'EDCAPS HelpDesk'];if(!category1.isEmpty()){for(BMCServiceDesk__Category__c cat1 : category1){inc.BMCServiceDesk__FKCategory__c = cat1.Id;}}}}                     
+    }
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Broadcast</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Broadcasts</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Broadcast</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Broadcasts</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Broadcast</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Broadcasts</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Broadcast</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Broadcasts</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Remedyforce Broadcast Light 1.0</layout>
+        <sections>
+            <label><!-- Broadcast Date and Time Details --></label>
+            <section>Broadcast Date and Time Details</section>
+        </sections>
+        <sections>
+            <label><!-- Broadcast Details --></label>
+            <section>Broadcast Details</section>
+        </sections>
+        <sections>
+            <label><!-- Display Broadcast --></label>
+            <section>Display Broadcast</section>
+        </sections>
+        <sections>
+            <label><!-- Staff Assignment Details --></label>
+            <section>Staff Assignment Details</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nachrichten-ID</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,13 @@
+Task # {!BMCServiceDesk__Task__c.Name} has been assigned to {!BMCServiceDesk__Task__c.OwnerFullName}. This task has the following details:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Task Number: {!BMCServiceDesk__Task__c.Name}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Task Description: {!BMCServiceDesk__Task__c.BMCServiceDesk__taskDescription__c}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Open Date: {!BMCServiceDesk__Task__c.BMCServiceDesk__openDateTime__c} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Category:   {!BMCServiceDesk__Task__c.BMCServiceDesk__FKCategory__c}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Client Name: {!BMCServiceDesk__Task__c.BMCServiceDesk__FKClient__c}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Related Incident Number: {!BMCServiceDesk__Task__c.BMCServiceDesk__FKIncident__c}<br>
+
+You may update this task's IMR Number, IMR Description and Status values by<br>responding to this email and replacing IMR NUMBER GOES HERE <br> between the # symbol with the actual IMR Number, replacing IMR Description <br>between the # symbol with the IMR Description or<br> replacing TASKSTATUS between the # symbol with the new Task Status <br>(valid values are ANALYZED, ASSIGNED, IN PROGRESS, SUBMITTED, UPDATED, and CLOSED).<br><br>
+
+IMRN##IMR NUMBER GOES HERE##<br>
+IMRD##IMR Description##<br>
+TSTAT##TASK STATUS GOES HERE##<br>

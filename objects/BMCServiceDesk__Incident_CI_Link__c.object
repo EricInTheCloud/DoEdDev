@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <customHelpPage>BMCServiceDesk__StdFormHelpCommonLink</customHelpPage>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>This object allows you to store data linking between incidents and configuration items.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>BMCServiceDesk__Class_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the class name of the linked configuration item</description>
+        <externalId>false</externalId>
+        <formula>BMCServiceDesk__FKConfiguration_Item__r.BMCServiceDesk__ClassName__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Class Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Configuration_Item__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&quot;/apex/BMCServiceDesk__CMDBManager?id=1010&amp;cmdbRecordId=&quot;+ BMCServiceDesk__FKConfiguration_Item__r.Id ,  BMCServiceDesk__FKConfiguration_Item__r.Name , &quot;_blank&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Configuration Item~</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__FKConfiguration_Item__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the foreign key value of the linked configuration item</description>
+        <externalId>false</externalId>
+        <label>Configuration Item</label>
+        <referenceTo>BMCServiceDesk__BMC_BaseElement__c</referenceTo>
+        <relationshipLabel>Incident CI Links</relationshipLabel>
+        <relationshipName>Incident_CI_Links</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__FKIncident__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the foreign key value of the linked incident</description>
+        <externalId>false</externalId>
+        <label>Incident</label>
+        <referenceTo>BMCServiceDesk__Incident__c</referenceTo>
+        <relationshipLabel>Linked Configuration Items</relationshipLabel>
+        <relationshipName>Incident_CI_Links</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Instance_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the instance id of the linked configuration item</description>
+        <externalId>false</externalId>
+        <formula>BMCServiceDesk__FKConfiguration_Item__r.BMCServiceDesk__InstanceID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Instance ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BMCServiceDesk__Instance_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field stores the instance name of the linked configuration item</description>
+        <externalId>false</externalId>
+        <formula>BMCServiceDesk__FKConfiguration_Item__r.BMCServiceDesk__Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Instance Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Incident CI Link</label>
+    <listViews>
+        <fullName>BMCServiceDesk__All</fullName>
+        <columns>BMCServiceDesk__FKIncident__c</columns>
+        <columns>BMCServiceDesk__FKConfiguration_Item__c</columns>
+        <columns>BMCServiceDesk__Instance_Name__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>{00000000}</displayFormat>
+        <label>Record #</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Incident CI Links</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <webLinks>
+        <fullName>BMCServiceDesk__New_Link</fullName>
+        <availability>online</availability>
+        <description>Link Incident to CI</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Select and Link Configuration Items to Incident</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>var stdLayoutScreenWidth = 671;
+var stdLayoutScreenHeight = 503;
+function stdScreenLeft(){
+return parseInt((screen.availWidth/2) - (stdLayoutScreenWidth/2));
+}
+
+function stdScreenTop(){
+return parseInt((screen.availHeight/2) - (stdLayoutScreenHeight/2));
+}
+
+if({!BMCServiceDesk__Incident__c.BMCServiceDesk__state__c}) {
+if( typeof consoleDetailElements != &quot;undefined&quot; )
+{
+window.open(&quot;/apex/BMCServiceDesk__SearchAndLink?filterObjectId={!BMCServiceDesk__Incident__c.Id}&amp;parentName=Incident__c&amp;isCalledFromConsole=true&amp;childName=BMC_BaseElement__c&amp;filterClause=MarkAsDeleted__c=false&amp;clientId={!BMCServiceDesk__Incident__c.BMCServiceDesk__FKClientId__c}&amp;accountId={!BMCServiceDesk__Incident__c.BMCServiceDesk__FKAccountId__c}&amp;FKBusinessService__c={!BMCServiceDesk__Incident__c.BMCServiceDesk__FKBusinessServiceId__c}&amp;baseId={!BMCServiceDesk__Incident__c.BMCServiceDesk__FKBMC_BaseElementId__c}&quot;,null,&quot;status = 1,height =&quot;+ stdLayoutScreenHeight+&quot;, width = &quot;+ stdLayoutScreenWidth+&quot;,left= &quot;+stdScreenLeft()+&quot;,top=&quot;+ stdScreenTop()+&quot;, resizable = 0,scrollbars=no&quot;);
+}
+else
+{
+window.open(&quot;/apex/BMCServiceDesk__SearchAndLink?filterObjectId={!BMCServiceDesk__Incident__c.Id}&amp;parentName=Incident__c&amp;isCalledFromConsole=false&amp;childName=BMC_BaseElement__c&amp;filterClause=MarkAsDeleted__c=false&amp;clientId={!BMCServiceDesk__Incident__c.BMCServiceDesk__FKClientId__c}&amp;accountId={!BMCServiceDesk__Incident__c.BMCServiceDesk__FKAccountId__c}&amp;FKBusinessService__c={!BMCServiceDesk__Incident__c.BMCServiceDesk__FKBusinessServiceId__c}&amp;baseId={!BMCServiceDesk__Incident__c.BMCServiceDesk__FKBMC_BaseElementId__c}&quot;,null,&quot;status = 1,height =&quot;+ stdLayoutScreenHeight+&quot;, width = &quot;+ stdLayoutScreenWidth+&quot;,left= &quot;+stdScreenLeft()+&quot;,top=&quot;+ stdScreenTop()+&quot;, resizable = 0,scrollbars=no&quot;);
+
+}
+}
+else {
+var label =&apos;{!JSENCODE($Label.BMCServiceDesk__Incident_is_Closed)}&apos;;
+alert(label);
+}</url>
+    </webLinks>
+</CustomObject>

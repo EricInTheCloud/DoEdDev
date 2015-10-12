@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <links>Alignability_Process_Model</links>
+    <links>Incident_Management_Process</links>
+    <links>Problem_Management_Process</links>
+    <links>Change_Management_Process</links>
+    <pageComponentType>links</pageComponentType>
+</HomePageComponent>

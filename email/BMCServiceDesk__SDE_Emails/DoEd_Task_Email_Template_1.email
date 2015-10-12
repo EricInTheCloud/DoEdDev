@@ -1,0 +1,18 @@
+Task # {!BMCServiceDesk__Task__c.Name} has been opened and assigned to {!BMCServiceDesk__Task__c.OwnerFullName}. This task has the following details:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Task Number: {!BMCServiceDesk__Task__c.Name}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Task Description: {!BMCServiceDesk__Task__c.BMCServiceDesk__taskDescription__c}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Open Date: {!BMCServiceDesk__Task__c.BMCServiceDesk__openDateTime__c} <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Category:   {!BMCServiceDesk__Task__c.BMCServiceDesk__FKCategory__c}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Client Name: {!BMCServiceDesk__Task__c.BMCServiceDesk__FKClient__c}<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Related Incident Number: {!BMCServiceDesk__Task__c.BMCServiceDesk__FKIncident__c}<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IMR Number##IMR NUMBER GOES HERE##<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; IMR Detail##IMR DESCRIPTION GOES HERE##<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Resolution##RESOLUTION GOES HERE##<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Task Update##ANALYZED##<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Task Update##ASSIGNED##<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Task Update##IN PROGRESS##<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Task Update##SUBMITTED##<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Task Update##UPDATED##<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Task Update##CLOSED##<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Task Update##TASK RESOLVED##<br>
